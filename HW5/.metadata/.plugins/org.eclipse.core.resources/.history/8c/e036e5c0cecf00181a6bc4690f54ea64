@@ -1,0 +1,16 @@
+
+public class VerbReplacementDecorator implements MadLibsDecorator {
+	String[] verbsToUse;
+	int indexIntoArray;
+	MadLibsDecorator mlDecorator;
+	public VerbReplacementDecorator(MadLibsDecorator ml)
+	{
+		
+	}
+	public String decorateString(String input)
+	{
+		
+		return null;
+	}
+
+}

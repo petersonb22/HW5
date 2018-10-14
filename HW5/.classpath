@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="var" path="CLOVER_RUNTIME"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="E:/HW5_Mockito_Files_export/byte-buddy-1.9.0.jar"/>
+	<classpathentry kind="lib" path="E:/HW5_Mockito_Files_export/byte-buddy-agent-1.9.0.jar"/>
+	<classpathentry kind="lib" path="E:/HW5_Mockito_Files_export/mockito-core-2.22.0.jar"/>
+	<classpathentry kind="lib" path="E:/HW5_Mockito_Files_export/objenesis-2.6.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

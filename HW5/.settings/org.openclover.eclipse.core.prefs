@@ -1,0 +1,2 @@
+eclipse.preferences.version=1
+exclude_filter=src//MadLIbsDecorator.java, src//MadLibsString.java, src//NounReplacementDecorator.java, src//VerbReplacementDecorator.java

@@ -1,0 +1,18 @@
+
+public class MadLibsString implements MadLibsDecorator {
+	String myString;
+	public String getMadLibsString(String input) {
+		// TODO Auto-generated method stub
+		return myString;
+	}
+	public MadLibsString(String s)
+	{
+		myString = s;
+	}
+	@Override
+	public String decorateString(String input) {
+		// TODO Auto-generated method stub
+		return myString;
+	}
+
+}

@@ -1,0 +1,19 @@
+
+public class VerbReplacementDecorator implements MadLibsDecorator {
+	String[] verbsToUse;
+	int indexIntoArray;
+	MadLibsDecorator mlDecorator;
+	public VerbReplacementDecorator(MadLibsDecorator ml)
+	{
+		
+		verbsToUse = new String[] {"run","jump","kick","scream","cry","hunt","fly",
+				"fight","hold","drive","throw","shoot","wash","use"};
+		indexIntoArray = 0;
+	}
+	public String decorateString(String input)
+	{
+		String retVal = mlDecorator.decorateString("");
+		return retVal;
+	}
+
+}
