@@ -1,5 +1,5 @@
 
-public class NounReplacementDecorator {
+public class NounReplacementDecorator implements MadLibsDecorator{
 	private String[] nounsToUse;
 	private int indexIntoArray;
 	private MadLibsDecorator mlDecorator;
